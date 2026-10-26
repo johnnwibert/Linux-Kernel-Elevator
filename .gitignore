@@ -1,0 +1,16 @@
+# Kernel module build output
+*.ko
+*.o
+*.mod*
+modules.order
+Module.symvers
+.*.cmd
+.tmp_versions/
+
+# Compiled user-space programs (the assignment deducts for executables)
+consumer
+producer
+test-syscalls
+test_syscalls
+empty
+part1
