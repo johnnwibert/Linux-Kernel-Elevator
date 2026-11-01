@@ -1,6 +1,6 @@
-# [Pet Elevator Project (Project 2)]
+# Pet Elevator Project (Project 2)
 
-[Description]
+## Description
 This project aims to provide hands-on experience with system calls, kernel programming, concurrency, synchronization, and elevator scheduling algorithms. It consists of parts that are built upon each other to deepen your knowledge and skills in these areas. You can do the work on your own computer (using a hypervisor like VirtualBox) or the CS Proxmox cluster. Using a virtual machine allows you to modify and boot the Linux kernel with the ability to roll back the bootable image should any bugs crash the OS and render it unusable.
 
 In Part 1, by adding system calls to a C program and verifying their correctness using the strace tool, you gain hands-on experience with system call integration and learn about the available system calls for your machine. This part lays the foundation for understanding how system calls interact with the kernel.
@@ -14,9 +14,9 @@ Each part of the project builds upon the knowledge and skills gained in the prev
 By completing this project, you acquire practical experience in system calls, kernel programming, concurrency, synchronization, and scheduling algorithms. These are essential skills for developing efficient and robust software systems, particularly in operating systems and low-level programming domains. Understanding system calls and kernel programming enables you to interact with and extend the functionality of the operating system, while concurrency, synchronization, and scheduling concepts are crucial for efficient resource management and multitasking in complex systems.
 
 ## Group Members
-- **[Robert Began]**: [School Email]
-- **[Armani Ruiz]**: [School Email]
-- **[John Noel Wibert]**: jnw22c@fsu.edu
+- **Robert Began**: [School Email]
+- **Armani Ruiz**: arj22c@fsu.edu
+- **John Noel Wibert**: jnw22c@fsu.edu
 ## Division of Labor
 
 ### Part 1: [System-Call Tracing]
@@ -29,13 +29,13 @@ By completing this project, you acquire practical experience in system calls, ke
 
 ### Part 3: [Elevator Module]
 - **Responsibilities**:
-Add System Calls - Armani Ruiz
-Compile and Install the Kernel - Armani Ruiz
-Test System Calls - Armani Ruiz
-Implement Elevator - John Noel Wibert
-Write to the Proc File - John Noel Wibert
-Test Elevator - John Noel Wibert
-- **Assigned to**: [Armani Ruiz, John Noel Wibert]
+Add System Calls - Armani Ruiz,
+Compile and Install the Kernel - Armani Ruiz,
+Test System Calls - Armani Ruiz,
+Implement Elevator - John Noel Wibert,
+Write to the Proc File - John Noel Wibert,
+Test Elevator - John Noel Wibert,
+- **Assigned to**: Armani Ruiz, John Noel Wibert
 
 ## File Listing
 ```
@@ -109,16 +109,15 @@ Each member records their contributions here.
 | YYYY-MM-DD | [Description of task]  |
 | YYYY-MM-DD | [Description of task]  |
 
-### [Member 2]
+### Armani Ruiz
 
 | Date       | Work Completed / Notes |
 |------------|------------------------|
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
+| 2026-10-25 | Downloaded and prepped local VM for development, downloaded linux kernel, wrote new syscalls (start_elevator, issue_request, stop_elevator) and configured kernel to copmpile with them. Began kernel compilation. |
+| 2026-10-26 | Completed kernel compilation. Ran some brief tests to ensure that the kernel compiled properly and the custom syscalls were working as intended. Wrote a rough skeleton for the elevator implementation (namely kthreads) before passing the rest off to John.  |
 
 
-### [John Noel Wibert]
+### John Noel Wibert
 
 | Date       | Work Completed / Notes |
 |------------|------------------------|
