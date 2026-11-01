@@ -16,7 +16,7 @@ By completing this project, you acquire practical experience in system calls, ke
 ## Group Members
 - **[Robert Began]**: [School Email]
 - **[Armani Ruiz]**: [School Email]
-- **[John Noel Wibert]**: [School Email]
+- **[John Noel Wibert]**: jnw22c@fsu.edu
 ## Division of Labor
 
 ### Part 1: [System-Call Tracing]
