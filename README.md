@@ -79,6 +79,7 @@ root/
 
 ### Requirements
 - **Compiler**: GCC and GNU Make
+- Linux kernel version 7.2.12
 - strace for Part 1
 - Kernel module modifiers (insmod, rmmod, lsmod)
 - Installation of custom kernel system calls:
