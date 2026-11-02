@@ -14,17 +14,17 @@ Each part of the project builds upon the knowledge and skills gained in the prev
 By completing this project, you acquire practical experience in system calls, kernel programming, concurrency, synchronization, and scheduling algorithms. These are essential skills for developing efficient and robust software systems, particularly in operating systems and low-level programming domains. Understanding system calls and kernel programming enables you to interact with and extend the functionality of the operating system, while concurrency, synchronization, and scheduling concepts are crucial for efficient resource management and multitasking in complex systems.
 
 ## Group Members
-- **Robert Began**: [School Email]
+- **Robert Began**: rgb23a@fsu.edu
 - **Armani Ruiz**: arj22c@fsu.edu
 - **John Noel Wibert**: jnw22c@fsu.edu
 ## Division of Labor
 
 ### Part 1: [System-Call Tracing]
-- **Responsibilities**: [Description]
+- **Responsibilities**: Added five system calls and traced them with strace.
 - **Assigned to**: [Robert Began]
 
 ### Part 2: [Timer Kernel Module]
-- **Responsibilities**: [Description]
+- **Responsibilities**: Built the `/proc/timer` kernel module.
 - **Assigned to**: [Robert Began]
 
 ### Part 3: [Elevator Module]
@@ -101,13 +101,13 @@ cleanup: make clean
 ## Development Log
 Each member records their contributions here.
 
-### [Member 1]
+### Robert Began
 
 | Date       | Work Completed / Notes |
 |------------|------------------------|
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
-| YYYY-MM-DD | [Description of task]  |
+| 2026-10-17 | Wrote empty.c, part1.c and the Part 1 Makefile; generated and verified strace output (5 extra system calls) |
+| 2026-10-17 | Wrote my_timer kernel module and Part 2 Makefile |
+| 2026-10-22 | Pushed Part 1 and Part 2 to the group repository |
 
 ### Armani Ruiz
 
