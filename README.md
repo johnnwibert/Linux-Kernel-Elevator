@@ -113,7 +113,7 @@ Each member records their contributions here.
 
 | Date       | Work Completed / Notes |
 |------------|------------------------|
-| 2026-10-25 | Downloaded and prepped local VM for development, downloaded linux kernel, wrote new syscalls (start_elevator, issue_request, stop_elevator) and configured kernel to copmpile with them. Began kernel compilation. |
+| 2026-10-25 | Downloaded and prepped local VM for development, downloaded linux kernel, wrote new syscalls (start_elevator, issue_request, stop_elevator) and configured kernel to compile with them. Began kernel compilation. |
 | 2026-10-26 | Completed kernel compilation. Ran some brief tests to ensure that the kernel compiled properly and the custom syscalls were working as intended. Wrote a rough skeleton for the elevator implementation (namely kthreads) before passing the rest off to John.  |
 
 
